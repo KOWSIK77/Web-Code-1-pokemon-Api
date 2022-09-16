@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(243, 233, 183);
+    
+    border-radius: 70px;
+ 
+  
+    
+}
+
+#monster{
+    width: 115px;
+    background-image:radial-gradient(rgb(225, 128, 252), rgb(201, 251, 175),rgb(185, 138, 255));
+    border-radius:10px;
+    border-style: dotted;
+    box-shadow: 7px 2px 10px ;
+}
+
+#enclosure{
+    display: flex;
+    position:relative;
+    flex-wrap: wrap;
+    direction: column-reverse;
+    align-items:flex-start;
+    margin: auto;
+    width:100%;
+    justify-content :space-between;
+
+}
+
+.main-content{
+    padding: 5px;
+    text-align: center;
+   margin: 12px;
+    height: 340px;
+   width:300px;
+    border: 2px solid purple ;
+    border-radius: 20px;
+}
+
+h1{
+    color: rgb(152, 26, 191);
+   
+}
+
+
+p{
+    text-align: center;
+    color: rgb(82, 6, 114);
+}
+
+.image-container{
+    margin-top: 10px;
+
+}
+
+#banner{
+  
+    width: 1150px;
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 70px;
+    padding: 20px;
+    box-shadow: 1px 2px 10px;
+}
+
+#front{
+    display: flex;
+    text-align: center;
+    margin-left: 130px;
+}
